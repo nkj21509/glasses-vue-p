@@ -1,9 +1,9 @@
 module.exports = {
 	devServer: {
-		proxy: 'http://www.api.qsyj.com'
+		proxy: 'https://nkj21509.github.io/'
 	},
 	lintOnSave: false,
 	publicPath: process.env.NODE_ENV === 'production'
-	    ? '/glass-vue/'
+	    ? 'https://nkj21509.github.io/glass-vue/'
 	    : '/'
 }
