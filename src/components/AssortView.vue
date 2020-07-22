@@ -41,7 +41,7 @@
 			this.$emit('onNavShow', this.navShow);
 			
 			let that = this;
-			this.$ajax.get('json/assort.json')
+			this.$ajax.get('/glass-vue/json/assort.json')
 			.then(function (response) {
 				console.log(response.data);
 				that.assortList = response.data

@@ -3,5 +3,5 @@ module.exports = {
 		proxy: 'https://nkj21509.github.io/'
 	},
 	lintOnSave: false,
-	publicPath: '/glass-vue/'
+	publicPath:  publicPath: process.env.NODE_ENV === 'production' ? '/glass-vue/' : '/'
 }
