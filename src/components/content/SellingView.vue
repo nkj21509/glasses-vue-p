@@ -19,7 +19,7 @@
 		},
 		created () {
 			let that = this;
-			this.$ajax.get('/glass-vue/json/selling-list.json')
+			this.$ajax.get('/json/selling-list.json')
 			.then( function (response) {
 				console.log(response.data);
 				that.sellingList = response.data;

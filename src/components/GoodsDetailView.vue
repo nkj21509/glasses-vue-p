@@ -141,7 +141,7 @@
 		created () {
 			console.log(this.$store.state.goodsItemId);
 			let that = this;
-			this.$ajax.get('/glass-vue/json/goods-detail.json')
+			this.$ajax.get('/json/goods-detail.json')
 			.then(function (response) {
 				console.log(response.data);
 				that.goodsDetail = response.data;
