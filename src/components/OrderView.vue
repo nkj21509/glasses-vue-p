@@ -54,7 +54,7 @@
 			
 			// 獲取數據
 			let that = this;
-			this.$ajax.get('/glasses-vue/json/order.json')
+			this.$ajax.get('/json/order.json')
 			.then(function (response) {
 				console.log(response.data);
 				that.orderList = response.data;

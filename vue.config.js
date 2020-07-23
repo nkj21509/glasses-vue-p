@@ -3,5 +3,5 @@ module.exports = {
 		proxy: 'http://www.api.qsyj.com'
 	},
 	lintOnSave: false,
-	publicPath: process.env.NODE_ENV === 'production' ? '/glass-vue/' : '/'
+	publicPath: process.env.NODE_ENV === 'production' ? '/glasses-vue' : '/'
 }

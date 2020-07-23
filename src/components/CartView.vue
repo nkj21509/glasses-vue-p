@@ -69,7 +69,7 @@
 			
 			// 獲取購物車數據
 			let that = this;
-			this.$ajax.get('/glasses-vue/json/cart.json')
+			this.$ajax.get('/json/cart.json')
 			.then(function (response) {
 				console.log(response.data)
 				that.carts = response.data;
@@ -84,7 +84,7 @@
 			});
 			
 			// 獲取地址數據
-			this.$ajax.get('/glasses-vue/json/user-addr.json')
+			this.$ajax.get('/json/user-addr.json')
 			.then(function (response) {
 				console.log(response.data)
 				that.addrList = response.data;

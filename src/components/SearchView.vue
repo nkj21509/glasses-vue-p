@@ -91,7 +91,7 @@
 				
 				// 獲取搜索內容數據
 				let that = this;
-				this.$ajax.get('/glasses-vue/json/search-detail.json')
+				this.$ajax.get('/json/search-detail.json')
 				.then(function (response) {
 					console.log(response.data)
 					that.searchDataList = response.data.list; 
