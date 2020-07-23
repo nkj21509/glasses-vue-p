@@ -43,7 +43,7 @@
 		},
 		created () {
 			let that = this;
-			this.$ajax.get('/json/commend-list.json')
+			this.$ajax.get('/glasses-vue/json/commend-list.json')
 			.then(function (response) {
 				console.log(response.data);
 				that.commendList = response.data;

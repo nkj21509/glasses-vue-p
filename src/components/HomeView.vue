@@ -75,7 +75,7 @@
 			this.$emit('onNavShow', this.navShow);
 			
 			// 輪播圖
-			this.$ajax.get('/json/banner.json')
+			this.$ajax.get('/glasses-vue/json/banner.json')
 				.then(function(response) { // 获取数据成功
 					// 服务器返回的数据是在 response.data 中
 					console.log(response.data);
@@ -86,7 +86,7 @@
 				})
 				
 			// 精品活動
-			this.$ajax.get('/json/winnow.json')
+			this.$ajax.get('/glasses-vue/json/winnow.json')
 				.then(function(response) { // 获取数据成功
 					// 服务器返回的数据是在 response.data 中
 					console.log(response.data);
